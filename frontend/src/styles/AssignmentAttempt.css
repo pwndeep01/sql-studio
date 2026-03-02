@@ -1,0 +1,142 @@
+.assignment-attempt-page {
+    padding: 30px 40px;
+}
+
+
+.right-bar {
+    position: absolute;
+    width: 85%;
+    right: 0;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 20px;
+}
+
+.description {
+    width: 100%;
+    background-color: #8888883a;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+.btn-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+
+.btn {
+    font-size: 16px;
+    padding: 5px 20px;
+    background: rgb(28, 28, 159);
+    color: rgb(251, 250, 250);
+    border-radius: 35px;
+    margin-bottom: 20px;
+    outline: none;
+    border: none;
+}
+
+.ri-play-fill{
+    margin-right: 3px;
+}
+
+.ri-file-check-line{
+    margin-right: 4px;
+}
+
+.ri-book-2-fill{
+    margin-right: 4px;
+}
+
+.hint {
+    border: 1px dashed #888;
+    padding: 10px 20px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+}
+
+.message {
+    font-size: 16px;
+    padding: 10px;
+    font-style: italic;
+}
+
+.table-container {
+  margin-top: 20px;
+  overflow-x: auto;
+  background-color: #dad5d5ac;
+
+}
+
+.result-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  background-color: #dad5d5ac;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.result-table thead {
+  background-color: #f5f7fa;
+}
+
+.result-table th {
+  padding: 12px 16px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 14px;
+  color: #333;
+  text-transform: capitalize;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.result-table td {
+  padding: 12px 16px;
+  font-size: 14px;
+  text-transform: capitalize;
+  color: #555;
+  font-weight: 400;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.result-table tbody tr:hover {
+  background-color: #f9fafb;
+  transition: background 0.2s ease;
+}
+
+@media (max-width: 900px){
+    .left-bar{
+        display: none;
+    }
+
+    .right-bar{
+        width: 100%;
+    }
+
+    .btn-container {
+    display: flex;
+    gap: 5px;
+}
+
+
+.btn {
+    font-size: 16px;
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 35px;
+    margin-bottom: 20px;
+}
+}
