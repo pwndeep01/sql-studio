@@ -136,7 +136,7 @@ DATABASE_URL=your_postgres_connection_string
 ### Clone Repository
 
 ```bash
-git clone 
+git clone https://github.com/pwndeep01/sql-studio.git
 cd sql-studio
 ```
 
